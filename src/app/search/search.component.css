@@ -1,0 +1,10 @@
+.image-container {
+    display: flex;
+    justify-content:flex-start; 
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 30%; 
+    height: auto;
+  }

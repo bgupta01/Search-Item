@@ -1,0 +1,9 @@
+
+<div>
+    <input type="text" [(ngModel)]="searchTerm" placeholder="Search...">
+  </div>
+    <div *ngFor="let image of filterItems" class="image-container">
+      <img [src]="image.imageUrl" alt="{{ image.description }}" width="200" height="200" />
+      <p>{{ image.description }}</p>
+    </div>
+
